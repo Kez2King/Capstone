@@ -11,6 +11,7 @@ class Home extends React.Component{
                 </header>
                 <main>
                     <h1>Welcome to Breezy Spot</h1>
+                    <p>Click for more</p>
                     <Animount id="owners"/>
                     <Animount id="menu"/>
                     <Animount id="work"/>

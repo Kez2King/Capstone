@@ -7,7 +7,9 @@
     border-radius: 42%;
     height: 30%;
     width: 45%;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.65);
+    font-size: larger;
+    color: floralwhite;
 }
 
 .item{
@@ -16,7 +18,7 @@
     margin: 0 auto;
     background-color: lightseagreen;
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    box-shadow: rgba(2, 185, 185, 0.2) 0px 8px 24px;
 }
 
 #owners{
