@@ -20,10 +20,10 @@ class Home extends React.Component{
                                 across the Southeast.
                             </p>
                         </div>
-                        <img src="" alt=""/>
+                        {/* <img src="" alt=""/> */}
                     </div>
                     <h2>Click for more</h2>
-                    <Animount id="owners"/>
+                    <Animount id="owners" />
                     <Animount id="menu"/>
                     <Animount id="work"/>
                     <Animount id="events"/>

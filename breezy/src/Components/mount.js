@@ -17,7 +17,7 @@ const Animount = (props) => {
             }}>{isVisible ? 'Less': 'More'}</button>
             <div className="container">
                 {transtion((style, item) => 
-                item ? <animated.div style={style} id={props.id} onClick={props.route} className="item"><h3>{props.title}</h3></animated.div>: '')}
+                item ? <animated.div style={style} id={props.id} className="item"><h3>{props.title}</h3></animated.div>: '')}
             </div>
         </div>
     )

@@ -5,9 +5,9 @@ class Steps extends React.Component{
     render(){
         return(
             <div className="follow">
-                <ol>
-                    <li>Go to
-                        <a href="www.arise.com"> www.arise.com</a>
+                <ol><b>
+                    <li>Click Here: 
+                        <a href="www.arise.com"> Arise</a>
                     </li>
                     <li>Click on Work From Home</li>
                     <li>Click on Register Now</li>
@@ -15,8 +15,7 @@ class Steps extends React.Component{
                     <li>Referral ID: 1094947</li>
                     <li>Company Information: CSPID 1094947</li>
                     <li>Breezy Spot EIN:  47-2082381</li>
-                </ol>
-                <button>Get Started</button>
+                </b></ol>
             </div>
         )
     }
