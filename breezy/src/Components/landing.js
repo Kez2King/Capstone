@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import Animount from './mount'
+import Route from '../App'
 
 class Home extends React.Component{
     render(){
@@ -11,7 +12,7 @@ class Home extends React.Component{
                 </header>
                 <main>
                     <div id="outer">
-                        <div>
+                        <div id="firstop">
                             <h1>Welcome to Breezy Spot</h1>
                             <p>Breezy Spot Food Truck offers delicious 
                                 food and beverages in Downtown Atlanta, 
@@ -23,7 +24,7 @@ class Home extends React.Component{
                         {/* <img src="" alt=""/> */}
                     </div>
                     <h2>Click for more</h2>
-                    <Animount id="owners" />
+                    <Animount id="owners" click={<Route  path="/AboutUs"/>}/>
                     <Animount id="menu"/>
                     <Animount id="work"/>
                     <Animount id="events"/>

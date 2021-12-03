@@ -9,7 +9,7 @@ class Info extends React.Component{
                     <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>
                 </header>
                 <main>
-                    <div>
+                    <div id="insight">
                         <h1>About Us Page</h1>
                         <h2>What We Offer?</h2>
                         <p>
@@ -36,7 +36,7 @@ class Info extends React.Component{
                             service that is unmatched.
                         </p>
                     </div>
-                    <img src="" alt=""/>
+                    {/* <img src="" alt=""/> */}
                 </main>
                 <footer>
                     <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>

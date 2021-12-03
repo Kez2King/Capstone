@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import MenuDisplay from './display'
 
 class Menu extends React.Component{
     render(){
@@ -9,15 +10,7 @@ class Menu extends React.Component{
                     <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>
                 </header>
                 <main>
-                    <div id="menuItems">
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                        <img src="" alt=""/>
-                    </div>
+                    <MenuDisplay/>
                     <a href="https://breezyspot.applova.menu/webstore/?session=1637787835510">Order Now</a>
                 </main>
                 <footer>

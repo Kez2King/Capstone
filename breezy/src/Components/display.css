@@ -1,0 +1,102 @@
+.menuItems{
+    /* border: 2px black solid; */
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 75%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuItems div{
+    height: 115px;
+    width: 105px;
+    border-radius: 5%;
+}
+
+#burger{
+    background: url(https://makeyourmeals.com/wp-content/uploads/2019/06/grilled-hamburger-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#hotdog{
+    background: url(https://www.vindulge.com/wp-content/uploads/2020/06/Chili-Dogs-jpg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#nachos{
+    background: url(https://www.willcookforfriends.com/wp-content/uploads/2016/04/Chorizo-and-Black-Bean-Loaded-Nachos-web-7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#icee{
+    background: url(https://cdn.abcotvs.com/dip/images/5410777_072219-wpvi-fyi-rosati-vid.jpg?w=800&r=16%3A9);
+    background-position: center;
+    background-size: cover;
+}
+
+#candy{
+    background: url(http://static1.squarespace.com/static/52f785aae4b0e482df7bac2e/52f91be1e4b0ac58b268ad87/58136078f5e23112387c890d/1478023111189/candy.jpg?format=1500w);
+    background-position: center;
+    background-size: cover;
+}
+
+#cc{
+    background: url(https://assets3.thrillist.com/v1/image/2790918/1000x666.6666666666666/flatten;crop;webp=auto;jpeg_quality=70);
+    background-position: center;
+    background-size: cover;
+}
+
+#chips{
+    background: url(https://www.eatthis.com/wp-content/uploads/sites/4/2021/05/chips-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#pastries{
+    background: url(https://images7.alphacoders.com/829/thumb-1920-829621.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#drinks{
+    background: url(https://www.fodors.com/wp-content/uploads/2019/03/HERO_Worlds_Best_Soda_Bundaberg_shutterstock_679079920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 520px) {
+    .menuItems{
+        width: 88%;
+    }
+    .menuItems div{
+        height: 125px;
+        width: 130px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #second p{
+    font-size: xx-large;
+    left: 135px;
+    }
+    .menuItems{
+        margin-top: 2%;
+        margin-bottom: 13%;
+        height: 75%
+    }
+    .menuItems div{
+        height: 156px;
+        width: 230px;
+        margin-top: 2%;
+    }
+    #fourth a{
+        padding: 18px;
+        margin-bottom: 3%;
+    }
+}

@@ -23,14 +23,14 @@
 
 #owners{
     background: url(https://media.istockphoto.com/photos/presentation-service-delivery-and-positive-feedback-concept-black-picture-id1261597991?b=1&k=20&m=1261597991&s=170667a&w=0&h=0-ttaVD69xLdPzmpb0sc8Xa_vGaXBI3oCH3aaC234-Q=);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
 }
 
 #menu{
     background: url(https://as2.ftcdn.net/v2/jpg/00/25/84/21/500_F_25842195_3RP9AloLVmMJqJnfxvkudbvTuDXbHb0B.jpg);
-    background-size: 93%;
-    background-position: 68vw;
+    background-size: cover;
+    background-position: center;
     background-position-y: -45px;
 }
 
@@ -45,4 +45,30 @@
     background: url(https://media.istockphoto.com/vectors/upcoming-events-neon-signs-vector-upcoming-events-design-template-vector-id978975308?k=20&m=978975308&s=170667a&w=0&h=HUSIAiymLvon2LgDMQuLCtLYtrXLPUSRW6vfhCZujxk=);
     background-size: 100%;
     background-position: center;
+}
+
+@media only screen and (min-width: 520px) {
+    .item{
+        width: 345px;
+    }
+    #menu{
+        background-position-y: -85px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .item{
+        width: 450px;
+        height: 115px;
+    }
+
+    .tryMe{
+        height: 40%;
+        width: 30%;
+    }
+
+    #sumLight{
+        margin-top: 2%;
+        margin-bottom: 8%;
+    }
 }
