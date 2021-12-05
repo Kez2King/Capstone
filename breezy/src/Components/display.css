@@ -100,3 +100,10 @@
         margin-bottom: 3%;
     }
 }
+
+@media only screen and (min-width: 1440px){
+    .menuItems div{
+        height: 23vh;
+        width: 45vh;
+    }
+}

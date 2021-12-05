@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import BackHome from './homebut'
 import Steps from './steps'
 
 class Work extends React.Component{
@@ -10,17 +11,21 @@ class Work extends React.Component{
                     <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>
                 </header>
                 <main>
-                    <div>
-                        <h1>Work From Home</h1>
-                        <p>
-                            Breezy Spot offers Work From 
-                            Home opportunities. Work from 
-                            home with companies including: 
-                            TurboTax, Comcast, Home Depot 
-                            and many others.
-                        </p>
-                        <h2>Registar Now</h2>
-                        <Steps/>
+                    <div className="lb" id="forbig">
+                        <div className="innerI">
+                            <h1>Want to Work?</h1>
+                            <p>
+                                Breezy Spot offers Work From 
+                                Home opportunities. Work from 
+                                home with companies including: 
+                                TurboTax, Comcast, Home Depot 
+                                and many others.
+                            </p>
+                            <h2>Registar Now</h2>
+                            <Steps/>
+                            <BackHome/>
+                        </div>
+                        
                     </div>
                 </main>
                 <footer>

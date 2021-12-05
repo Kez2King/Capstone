@@ -1,14 +1,15 @@
 import React from 'react'
 import '../App.css'
 import Animount from './mount'
-import Route from '../App'
+
+
 
 class Home extends React.Component{
     render(){
         return(
             <div id="first">
                 <header>
-                    <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>
+                    {/* <img src="" alt=""/> */}
                 </header>
                 <main>
                     <div id="outer">
@@ -23,14 +24,16 @@ class Home extends React.Component{
                         </div>
                         {/* <img src="" alt=""/> */}
                     </div>
-                    <h2>Click for more</h2>
-                    <Animount id="owners" click={<Route  path="/AboutUs"/>}/>
-                    <Animount id="menu"/>
-                    <Animount id="work"/>
-                    <Animount id="events"/>
+                    <div className="lb">
+                        <h2><u>Click for more</u></h2>
+                        <Animount id="owners" location="/AboutUs"/>
+                        <Animount id="menu" location="/Menu"/>
+                        <Animount id="work" location="/Work"/>
+                        <Animount id="events" location="/Events"/>
+                    </div>
                 </main>
                 <footer>
-                    <img src="http://breezyspot.com/wp-content/uploads/2020/11/breezy-spot-1200.png" alt=""/>
+                    {/* <img src="../pictures/Hollow_Back.png" alt=""/> */}
                 </footer>
             </div>
         )
