@@ -15,28 +15,30 @@ class Info extends React.Component{
                             <h1>About Us Page</h1>
                             <h2>What We Offer?</h2>
                             <p>
-                                Breezy Spot is an energetic, 
-                                imaginative mobile food truck 
-                                company that offers the finest, 
-                                high-quality, and delicious Italian 
-                                and Tropical Ice, and other snacks.
+                                Breezy Spot is a family owned business
+                                dedicated to bringing Italian Ice and delicious
+                                meals to the community where we live. We are committed
+                                to providing a clean, safe and professional environment
+                                to to our community. We are a Black owned business that
+                                is committed to promoting Black Owned Businesses in our
+                                neighorhood.
                             </p>
+
                             <p>
-                                Moderately priced and using the best 
-                                domestic and natural ingredients, Breezy 
-                                Spot is located in Atlanta. In addition 
-                                to its permanent location in Downtown 
-                                near the city’s top destinations, events 
-                                and workplaces, Breezy Spot also supports 
-                                work-from-home events, private parties, and 
-                                catering.
+                                Each of our products are moderately priced and equipped with the best domestic 
+                                and natural ingredients, Breezy Spot is located in Atlanta. In addition to its 
+                                permanent location in Downtown near the city’s top destinations, events and workplaces, 
+                                Breezy Spot also supports work-from-home events, private parties, and catering.
                             </p>
+
                             <p>
-                                As a purpose-driven and family-operated company, 
-                                the company aims to partner with customers throughout 
-                                Atlanta and the Southeast and provide a product and 
-                                service that is unmatched.
+                                The Goal of Breezy Spot, LLC is to preserve the heritage
+                                of our community by bringing Black Owned businesses to our
+                                community. The more the community supports Breezy Spot, our 
+                                company will be able to give back to the community and promote a 
+                                thriving community for us all.
                             </p>
+
                             <BackHome/>
                         </div>
 

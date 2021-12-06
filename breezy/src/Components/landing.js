@@ -9,7 +9,6 @@ class Home extends React.Component{
         return(
             <div id="first">
                 <header>
-                    {/* <img src="" alt=""/> */}
                 </header>
                 <main>
                     <div id="outer">
@@ -22,7 +21,6 @@ class Home extends React.Component{
                                 across the Southeast.
                             </p>
                         </div>
-                        {/* <img src="" alt=""/> */}
                     </div>
                     <div className="lb">
                         <h2><u>Click for more</u></h2>
@@ -32,9 +30,7 @@ class Home extends React.Component{
                         <Animount id="events" location="/Events"/>
                     </div>
                 </main>
-                <footer>
-                    {/* <img src="../pictures/Hollow_Back.png" alt=""/> */}
-                </footer>
+                <footer></footer>
             </div>
         )
     }

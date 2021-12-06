@@ -25,7 +25,10 @@ class Work extends React.Component{
                             <Steps/>
                             <BackHome/>
                         </div>
-                        
+                        <div className="catcher">
+                            <div id="auntie"></div>
+                            <div id="kipp"></div>
+                        </div>
                     </div>
                 </main>
                 <footer>

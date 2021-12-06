@@ -15,7 +15,7 @@ const Animount = (props) => {
         <div id="sumLight">
             <button className="tryMe" onClick={() => {
                 setIsVisible(v => !v)
-            }}>{isVisible ? 'Open': 'Back'}</button>
+            }}>{isVisible ? 'Back': 'Open'}</button>
             <div className="container">
                 {transtion((style, item) => 
                 item ? <Link to={props.location}><animated.div style={style} id={props.id} className="item"><h3>{props.title}</h3></animated.div></Link>: '')}
